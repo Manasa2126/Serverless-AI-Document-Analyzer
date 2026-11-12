@@ -29,7 +29,7 @@ PDF uploaded to source S3 bucket
 - **AWS Lambda** – runs the Python document-processing function when an S3 object-created event occurs.
 - **Amazon Bedrock** – invokes `amazon.nova-lite-v1:0` to extract document text.
 - **AWS IAM** – the Lambda execution role supplies permissions for S3 access, Bedrock invocation and CloudWatch logging.
-- **Amazon Textract** – identified as part of the wider project, but the Lambda source included here does not call Textract directly. Add the separate Textract-integrated component before documenting it as an active step in this execution path.
+
 
 ## Repository files
 
